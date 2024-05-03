@@ -1,5 +1,16 @@
+@font-face {
+    font-family: Euclid;
+    src: url(../assets/fonts/EuclidSquare-Regular.ttf);
+  }
+  @font-face {
+    font-family: Euclid-Bold;
+    src: url(../assets/fonts/EuclidSquare-Bold.ttf);
+  }
 .navbar{
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .ngrok-logo{
     width: 96px;
@@ -7,11 +18,55 @@
 }
 .buttons{
     display: flex;
+    justify-content: space-between;
     gap: 8px;
 }
 .login{
-    background: #2E54EA;  
+    background: #2E54EA; 
+    width: 82px;
+    height: 36px;
+    color: #FFFFFF;
+    gap: 8px;
+    border-radius: 2px;
+    border: 1px;    
 }
 .signup{
-
+    background: #FFFFFF;
+    width: 88px;
+    height: 36px;
+    gap: 8px;
+    border-radius: 2px;
+    border: 1px;    
 }
+.header-menu {
+    display: flex;
+    padding: 0px 25px 0px 25px;
+    align-items: center;
+    max-width: 1295px;
+    margin: auto;
+    justify-content: space-between; 
+  }
+  .menu-bar {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    cursor: pointer;
+    justify-content: space-between; 
+  }
+  @media only screen and (max-width: 950px){
+    .menu {
+        display: flex;
+        align-items: center;
+        padding-right: 30px;
+        margin-top: 10px;
+    }
+    .navbar{
+     padding-left: 30px;
+    }
+    .login, .signup{
+      display: none;
+    }
+  }

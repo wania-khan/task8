@@ -5,8 +5,15 @@ import NGROK from '../assets/imgs/ngrok.png';
 function headerSection(){
     return (
     <>
+   <br></br>
+   <div className='header-menu'>
+      <div className='menu'>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
     <div className='navbar'>
-        <br></br>
      <div className='logo'>
      <img src={NGROK} alt='error' className='ngrok-logo'/>
      </div>
@@ -14,8 +21,8 @@ function headerSection(){
      <button className='login'>Login</button>
      <button className='signup'>Sign Up</button>
      </div>
-     <br></br>
     </div>
+    <br></br>
     </>
     );
 }
