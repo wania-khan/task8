@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import HeaderSection from './components/headerSection.js';
 
 function App() {
