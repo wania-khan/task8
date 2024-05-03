@@ -9,8 +9,8 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .ngrok-logo{
     width: 96px;
