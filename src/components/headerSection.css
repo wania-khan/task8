@@ -1,0 +1,17 @@
+.navbar{
+    display: grid;
+}
+.ngrok-logo{
+    width: 96px;
+    height: 36px;
+}
+.buttons{
+    display: flex;
+    gap: 8px;
+}
+.login{
+    background: #2E54EA;  
+}
+.signup{
+
+}

@@ -6,9 +6,15 @@ function headerSection(){
     return (
     <>
     <div className='navbar'>
+        <br></br>
      <div className='logo'>
-     <img src={NGROK} alt='error'/>
+     <img src={NGROK} alt='error' className='ngrok-logo'/>
      </div>
+     <div className='buttons'>
+     <button className='login'>Login</button>
+     <button className='signup'>Sign Up</button>
+     </div>
+     <br></br>
     </div>
     </>
     );
