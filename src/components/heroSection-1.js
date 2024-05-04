@@ -21,6 +21,7 @@ function heroSection(){
      <div className='img-block'>
      <img src={group} alt='error' className='img-hero1' />
      </div>
+     <br></br><br></br><br></br>
     </div>
     </>
     );

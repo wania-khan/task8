@@ -1,9 +1,9 @@
-.hero-1 {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+.hero-1 {    
+    align-items: center; 
+    display: grid;    
+    grid-template-columns: repeat(2, minmax(0, 1fr));    
+    justify-content: center;  
+    margin: 0 auto;   
     max-width: 1295px;
 }
 .text-block {
@@ -89,9 +89,25 @@
     height: 16px;
 }
 
-@media (min-width: 840px) {
-   .hero-1  {
-    display: grid;
-   grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
+@media (max-width: 840px) {
+    .hero-1 {        
+    grid-template-columns: minmax(0, 1fr);
+   }
+   .img-block{
+    order: 1;
+   }
+   .img-hero1{
+    align-items: center;
+    justify-content: center;
+    padding-right: none;
+    padding-left: 40px;
+    margin-top: -55px;
+   }
+   .text-block{
+    order: 2;
+    padding-left: 30px;
+}
+}
+@media only screen and (max-width:540px) {
+    
+}
