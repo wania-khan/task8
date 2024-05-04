@@ -11,7 +11,6 @@ function heroSection(){
      <p className='header-purple'> over 5 million developers</p>
      </div>
      <div className='img-block'>
-     <br></br><br></br>
      <img src={group} alt='error' className='img-hero1' />
      </div>
     </div>
