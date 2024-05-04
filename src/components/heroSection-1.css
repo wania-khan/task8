@@ -89,13 +89,9 @@
     height: 16px;
 }
 
-@media only screen and (max-width: 895px) {
-    .text-block{
-        display: block;
-        padding: auto;
-    }
-    .img-hero1 {
-      width: 420px;
-      height: 390px;
+@media (min-width: 840px) {
+   .hero-1  {
+    display: grid;
+   grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
