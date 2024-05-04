@@ -5,6 +5,7 @@ import NGROK from '../assets/imgs/ngrok.png';
 function headerSection(){
     return (
     <>
+    <div className='container'>
    <br></br>
    <div className='header-menu'>
       <div className='menu'>
@@ -23,6 +24,7 @@ function headerSection(){
      </div>
     </div>
     <br></br>
+    </div>
     </>
     );
 }

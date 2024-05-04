@@ -6,6 +6,10 @@
   font-family: Euclid-Bold;
   src: url(./assets/fonts/EuclidSquare-Bold.ttf);
 }
+@font-face {
+  font-family: Euclid-Light;
+  src: url(./assets/fonts/EuclidSquare-Light.ttf);
+}
 .header-section{
   background-color: #10239E;
 }

@@ -6,10 +6,14 @@
     font-family: Euclid-Bold;
     src: url(../assets/fonts/EuclidSquare-Bold.ttf);
   }
+.container{
+  justify-content: center;
+  align-items: center;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
+    padding-left: 60px;
     padding-right: 50px;
 }
 .ngrok-logo{
@@ -28,7 +32,8 @@
     color: #FFFFFF;
     gap: 8px;
     border-radius: 2px;
-    border: 1px;    
+    border: 1px;  
+    cursor: pointer;  
 }
 .signup{
     background: #FFFFFF;
@@ -36,7 +41,8 @@
     height: 36px;
     gap: 8px;
     border-radius: 2px;
-    border: 1px;    
+    border: 1px;  
+    cursor: pointer;  
 }
 .header-menu {
     display: flex;
@@ -69,4 +75,4 @@
     .login, .signup{
       display: none;
     }
-  }
+}
