@@ -8,7 +8,6 @@ function heroSection(){
     <>
     <div className='hero-1'>
      <div className='text-block'>
-     <br></br><br></br>
      <p className='header-black'>Trusted by </p>
      <p className='header-purple'> over 5 million developers</p>
      <p className='content-p'>Trusted by the <b> best teams.</b><br>
