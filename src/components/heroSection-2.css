@@ -31,7 +31,7 @@
     font-family: 'Euclid';
     font-size: 18px;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 18px;
     text-align: left;
     color: #595959;
 }
@@ -78,4 +78,16 @@
     .content-hero2{
         padding-left: 30px;
     }
+    .review-items {
+    padding: auto;
+    width: 280px;
+    height: auto;
+    } 
+}
+@media (max-width: 380px) {
+    .review-items {
+    padding: auto;
+    width: 250px;
+    height: auto;
+    } 
 }
