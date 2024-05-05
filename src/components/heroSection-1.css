@@ -6,6 +6,9 @@
     margin: 0 auto;   
     max-width: 1295px;
 }
+.content-break{
+    display: none;
+}
 .text-block {
     gap: 0px;
     text-align: left;
@@ -90,6 +93,9 @@
 }
 
 @media (max-width: 840px) {
+    .content-break {
+        display: block; 
+      }
     .hero-1 {        
     grid-template-columns: minmax(0, 1fr);
    }
@@ -108,6 +114,14 @@
     padding-left: 30px;
 }
 }
-@media only screen and (max-width:540px) {
-    
+@media only screen and (max-width:685px) {
+    .header-black, .header-purple{
+    font-family: 'Euclid';
+    /* font-size: 50px; */
+    font-weight: 700;
+    /* line-height: 60px; */
+    font-size: auto;
+    line-height: auto;
+    text-align: left;
+    }
 }

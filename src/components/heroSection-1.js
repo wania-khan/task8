@@ -3,7 +3,7 @@ import React from 'react';
 import group from '../assets/imgs/Group.png';
 import Arrow from '../assets/imgs/arrow-f.png';
 
-function heroSection(){
+function heroSection1(){
     return (
     <>
     <div className='hero-1'>
@@ -16,6 +16,9 @@ function heroSection(){
      <div className='button-container'>
     <button className='try-button'>Try ngrok for free</button>
     <button className='touch-button'>Get in touch <img src={Arrow} alt='error' className='arrow-logo'/></button>
+    <div className='content-break'>
+    <br></br><br></br><br></br><br></br>
+    </div>
     </div>
      </div>
      <div className='img-block'>
@@ -27,4 +30,4 @@ function heroSection(){
     );
 }
 
-export default heroSection;
+export default heroSection1;
