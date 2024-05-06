@@ -19,7 +19,7 @@ function heroSection2(){
    <>
    <div className='hero2-container'>
    <div className='hero-2'>
-    <br></br><br></br>
+    <br></br><br></br><br></br>
     <div className='content-hero2'>
         <p className='heading-1'>Developers</p>
         <p className='heading-2'>Trusted by over 5 million developers</p>
