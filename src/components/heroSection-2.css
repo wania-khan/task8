@@ -36,16 +36,18 @@
     color: #595959;
 }
 .content-reviews section { 
-    display: flex;
+    column-count: 3;
     flex-wrap: wrap; 
+    margin: 0 auto;
     justify-content: center; 
-    gap: 2.5em;
+    /* column-gap: -90px; */
+    /* max-width: 1295px; */
   }
   
   .review-items { 
     width: 300px;
     height: auto; 
-    padding: 20px; 
+    padding: 13px; 
     text-align: center;
     margin: 10px 0;
     border-radius: 24px;
