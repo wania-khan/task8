@@ -4,12 +4,12 @@ import React from 'react';
 const userReviews = [
     { title: "ngrok is about 1000x better than any other local tunnel tool I've used. Usually they are a nightmare.", 
     content: "- matt at populi" },
-    { title: "ngrok is pretty much my favorite thing right now", content: "- @EWDurbin" },
-    { title: "#ngrok is a dream for testing localhost with remote APIs!", content: "- @davejlong" },
     { title: "@inconshreveable No need to download the newest ngrok because... it updates itself! You are the best.", 
     content: "- @brent_noorda" },
+    { title: "ngrok is pretty much my favorite thing right now", content: "- @EWDurbin" },
     { title: "ngrok, probably the best tool I have started to use for my webwork since firebug also great support @inconshreveable",
-     content: "- @Botto" },
+    content: "- @Botto" },
+    { title: "#ngrok is a dream for testing localhost with remote APIs!", content: "- @davejlong" },
     { title: "holy crap. ngrok.com is awesome, this solves pretty much all local developer problems.", 
     content: "- @julianwachholz" },
   ];
