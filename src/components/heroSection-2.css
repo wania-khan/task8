@@ -39,13 +39,13 @@
     color: #595959;
 }
 .content-reviews section {
-    padding-left: 50px; 
+    /* padding-left: 50px;  */
     column-count: 3;
     flex-wrap: wrap; 
     margin: 0 auto;
     max-width: 1153px;
     justify-content: center; 
-    column-gap: 20px;
+    column-gap: 32px;
     /* max-width: 1295px; */
   }
   
@@ -61,15 +61,15 @@
   
   .review-title { 
     font-family: 'Euclid'; 
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     text-align: left;
   }
   
   .review-content { 
-    font-family: 'Euclid'; 
-    font-size: 20px;
+    font-family: 'Euclid-Bold'; 
+    font-size: 18px;
     font-weight: 600;
     line-height: 31px;
     text-align: left;
