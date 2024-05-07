@@ -52,6 +52,7 @@
   .review-items { 
     width: 300px;
     height: auto; 
+    display: inline-block; 
     text-align: center;
     margin: 10px 0;
     border-radius: 24px;
@@ -75,7 +76,7 @@
     text-align: left;
  
   }
-  .see-more{
+  .see-more, .see-less{
     font-family: 'Euclid'; 
     width: 115px;
     font-weight: 500;
@@ -86,6 +87,7 @@
     color: #2E54EA;
     border: 1px solid #2E54EA;
     background-color: #FFFFFF;
+    cursor: pointer;
   }
   
   @media only screen and (max-width:1040px) {

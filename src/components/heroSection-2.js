@@ -18,17 +18,37 @@ const userReviews = [
     content: "- @paulcampbell_" },
     { title: "so ngrok.com is basically the greatest thing ever", 
     content: "- @philadams" },
+    { title: "ngrok is about 1000x better than any other local tunnel tool I've used. Usually they are a nightmare.", 
+    content: "- matt at populi" },
+    { title: "@inconshreveable No need to download the newest ngrok because... it updates itself! You are the best.", 
+    content: "- @brent_noorda" },
+    { title: "ngrok is pretty much my favorite thing right now", content: "- @EWDurbin" },
+    { title: "ngrok, probably the best tool I have started to use for my webwork since firebug also great support @inconshreveable",
+    content: "- @Botto" },
+    { title: "#ngrok is a dream for testing localhost with remote APIs!", content: "- @davejlong" },
+    { title: "holy crap. ngrok.com is awesome, this solves pretty much all local developer problems.", 
+    content: "- @julianwachholz" },
+    { title: "@ngrok; moved -/bin already, the web inspector is gold", 
+    content: "- @pedromelo" },
+    { title: "Holy crap! #ngrok. Tell everyone! The most useful thing ever!", 
+    content: "- @paulcampbell_" },
+    { title: "so ngrok.com is basically the greatest thing ever", 
+    content: "- @philadams" },
 
   ];
   
   function HeroSection2() {
-    const [showMore, setShowMore] = useState(6); // Initially will show 6 reviews
+    const [showMore, setShowMore] = useState(9); // Initially shows 9 reviews
   
     const handleShowMore = () => {
-      setShowMore(showMore + 3); // show three (?) more reviews
+      setShowMore(userReviews.length); // Set to show all reviews
     };
   
-    const slicedReviews = userReviews.slice(0, showMore); // Slice the reviews array to show the desired number
+    const handleShowLess = () => {
+      setShowMore(9); // Reset back to initial 9 reviews
+    };
+  
+    const slicedReviews = userReviews.slice(0, showMore);
   
     return (
       <>
@@ -52,11 +72,19 @@ const userReviews = [
                   </article>
                 ))}
               </section>
-              <br></br>
               {showMore < userReviews.length && ( 
-              <center>  <button className="see-more" onClick={handleShowMore}>
-                  See More
-                </button></center>
+                <center>
+                  <button className="see-more" onClick={handleShowMore}>
+                    See More
+                  </button>
+                </center>
+              )}
+              {showMore > 9 && ( 
+                <center>
+                  <button className="see-less" onClick={handleShowLess}>
+                    See Less
+                  </button>
+                </center>
               )}
             </div>
             <br />
@@ -64,6 +92,6 @@ const userReviews = [
         </div>
       </>
     );
-  }
+  }  
   
   export default HeroSection2;
