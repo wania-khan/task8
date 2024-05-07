@@ -59,7 +59,9 @@
     background: #FFFFFF;
     padding: 7px 40px 7px 20px;
   }
-  
+  .review-items.half-opaque {
+    opacity: 0.5; 
+  }  
   .review-title { 
     font-family: 'Euclid'; 
     font-size: 18px;
@@ -100,7 +102,7 @@
         padding-left: 30px;
     }
     .content-reviews section{
-      padding-left: 30px;
+      padding-left: auto;
     }
     .review-items {
     padding: auto;
