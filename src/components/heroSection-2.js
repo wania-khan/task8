@@ -69,11 +69,10 @@ const userReviews = [
                 <article
                   key={review.title}
                   className={`review-items ${
-                    index === slicedReviews.length - 7 && showMore !== userReviews.length
+                    showMore !== userReviews.length && (index + 1) % 3 === 0
                       ? 'half-opaque'
                       : ''
-                  }`}
-                >
+                  }`}>
                   <h3 className="review-title">{review.title}</h3>
                   <p className="review-content">{review.content}</p>
                 </article>
