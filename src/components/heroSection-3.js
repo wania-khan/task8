@@ -1,5 +1,8 @@
 import './heroSection-3.css';
 import React from 'react';
+import P1 from '../assets/imgs/pc1.png';
+import P2 from '../assets/imgs/pc2.png';
+import P3 from '../assets/imgs/pc3.png';
 
 function heroSection3(){
     return(
@@ -15,7 +18,20 @@ function heroSection3(){
     </div>
     <br></br>
     <div className='content-prod'>
+     <div className='item-1'>
+      <img src={P1} alt='error' className='p1' />
+      <p className='head-1'>Zendesk keeps 200 engineers focused, productive and safe</p>
+     </div>
+     <div className='item-2'>
+     <img src={P2} alt='error' className='p2' />
+     <p className='head-1'>Copado extends the reach of their CI/CD platform without VPN friction</p>
 
+     </div>
+     <div className='item-3'>
+     <img src={P3} alt='error' className='p3' />
+     <p className='head-1'>HENNGE extends Zero Trust access to on-prem systems with ngrok</p>
+
+     </div>
     </div>
     </div>
     </div>
