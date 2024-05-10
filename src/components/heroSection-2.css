@@ -34,21 +34,10 @@
     font-family: 'Euclid';
     font-size: 18px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 20px;
     text-align: left;
     color: #595959;
 }
-.content-reviews section {
-    /* padding-left: 50px;  */
-    column-count: 3;
-    flex-wrap: wrap; 
-    margin: 0 auto;
-    max-width: 1153px;
-    justify-content: center; 
-    column-gap: 32px;
-    /* max-width: 1295px; */
-  }
-  
   .review-items { 
     width: 300px;
     height: auto; 
@@ -91,29 +80,26 @@
     background-color: #FFFFFF;
     cursor: pointer;
   }
+  .content-reviews section {
+    column-gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1153px;
+  }
   
-  @media only screen and (max-width:1040px) {
+  @media (min-width: 1150px) {
     .content-reviews section {
-      width: auto; 
+      column-count: 3;
+      flex-direction: row;
     }
   }
-  @media (max-width: 840px) {
-    .content-hero2{
-        padding-left: 30px;
+  
+  @media (max-width: 1149px) {
+    .content-reviews section {
+      column-count: 1;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
     }
-    .content-reviews section{
-      padding-left: auto;
-    }
-    .review-items {
-    padding: auto;
-    width: auto;
-    height: auto;
-    } 
-}
-@media (max-width: 380px) {
-    .review-items {
-    padding: auto;
-    width: auto;
-    height: auto;
-    } 
-}
+  }

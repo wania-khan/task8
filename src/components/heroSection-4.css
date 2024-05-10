@@ -1,0 +1,37 @@
+.hero-4{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1295px;
+}
+.hero4-container{
+    background: #F6F7F9;
+    max-width: 100%;
+}
+.content-hero4{
+    padding-left: 65px;
+}
+.heading-1{
+    font-family: 'Euclid';
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: 0.1em; 
+    text-align: left;
+    color: #2E54EA;
+}
+.heading-2{
+    font-family: 'Euclid';
+    font-size: 36px;
+    line-height: 35px;
+    font-weight: 400;
+    text-align: left;
+}
+.heading-3{
+    font-family: 'Euclid';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #595959;
+}

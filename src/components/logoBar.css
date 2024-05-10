@@ -1,0 +1,13 @@
+.logo-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1295px;
+}
+.Twilio, .SendGrid, .GitHub, .Slack, 
+.Okta, .MS, .Zoom{
+    width: 133px;
+    height: 36px;
+}
