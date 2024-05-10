@@ -10,4 +10,14 @@
 .Okta, .MS, .Zoom{
     width: 133px;
     height: 36px;
+    animation: animate 8s linear infinite;
 }
+@keyframes animate {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1000px, 0, 0);
+    }
+  }
+  

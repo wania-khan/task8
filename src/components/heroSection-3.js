@@ -4,6 +4,9 @@ import P1 from '../assets/imgs/pc1.png';
 import P2 from '../assets/imgs/pc2.png';
 import P3 from '../assets/imgs/pc3.png';
 import Arrow from '../assets/imgs/arrow-f.png';
+import L1 from '../assets/imgs/logo1.png';
+import L2 from '../assets/imgs/logo2.png';
+import L3 from '../assets/imgs/logo3.png';
 
 function heroSection3(){
     return(
@@ -22,6 +25,7 @@ function heroSection3(){
     <div className='item-1'>
     <div className='item-background'>
       <img src={P1} alt='error' className='p1' />
+      <img src={L1} alt='error' className='logo-1' />
     </div>
     <div className="item-content">
       <p className='head-1'>Zendesk keeps 200 engineers focused, productive and safe</p>
@@ -36,6 +40,7 @@ function heroSection3(){
      <div className='item-2'>
       <div className='item-background'>
      <img src={P2} alt='error' className='p2' />
+     <img src={L2} alt='error' className='logo-2' />
      </div>
      <div className="item-content">
      <p className='head-1'>Copado extends the reach of their CI/CD platform without VPN friction</p>
@@ -50,6 +55,7 @@ function heroSection3(){
      <div className='item-3'>
       <div className='item-background'>
      <img src={P3} alt='error' className='p3' />
+     <img src={L3} alt='error' className='logo-3' />
      </div>
      <div className="item-content">
      <p className='head-1'>HENNGE extends Zero Trust access to on-prem systems with ngrok</p>

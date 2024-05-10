@@ -64,15 +64,11 @@ const userReviews = [
           </div>
           <br />
           <div className='content-reviews'>
-            <section className="reviews">
+            <section className={showMore === 9 ? "reviews-initial" : "reviews"}>
               {slicedReviews.map((review, index) => (
                 <article
                   key={review.title}
-                  className={`review-items ${
-                    showMore !== userReviews.length && (index + 1) % 3 === 0
-                      ? 'half-opaque'
-                      : ''
-                  }`}>
+                  className='review-items'>
                   <h3 className="review-title">{review.title}</h3>
                   <p className="review-content">{review.content}</p>
                 </article>

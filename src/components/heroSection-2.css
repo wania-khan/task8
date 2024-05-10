@@ -48,9 +48,14 @@
     background: #FFFFFF;
     padding: 7px 40px 7px 20px;
   }
-  .review-items.half-opaque {
-    opacity: 0.5; 
-  }  
+  .reviews-initial{
+    --mask: linear-gradient(to bottom, 
+    rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 40%, 
+    rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
+    ) 100% 50% / 100% 100% repeat-x;
+    -webkit-mask: var(--mask); 
+    mask: var(--mask);
+  }
   .review-title { 
     font-family: 'Euclid'; 
     font-size: 18px;
@@ -102,4 +107,9 @@
       display: flex;
       align-items: center;
     }
+  }
+  @media (max-width: 840px) {
+  .content-hero2{
+    padding-left: 30px;
+  }
   }

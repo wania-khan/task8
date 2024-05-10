@@ -35,3 +35,8 @@
     text-align: left;
     color: #595959;
 }
+@media (max-width: 840px) {
+    .content-hero4{
+      padding-left: 30px;
+    }
+    }
