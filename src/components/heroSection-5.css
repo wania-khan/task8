@@ -1,0 +1,65 @@
+.hero5-container{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1295px;
+}
+.h-1{
+   font-family: 'Euclid';
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 0;
+   text-align: center;
+   color: black;
+}
+.p-1{
+    color: #595959;
+    font-family: 'Euclid';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+
+}
+.button-container {
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+    justify-content: center;
+}
+.gsn-button{
+    font-family: 'Euclid-Light';
+    background: #2E54EA; 
+    width: 152px;
+    height: 36px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: #FFFFFF;
+    gap: 8px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: 1px; 
+    padding: 20px;
+    cursor: pointer;
+}
+.touch-button{
+    font-family: 'Euclid-Light';
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background: #F0F5FF;
+    font-weight: 700;
+    width: 152px;
+    height: 36px;
+    color: #2E54EA;
+    gap: 8px;
+    border-radius: 2px;
+    border: 1px; 
+    padding: 20px;
+    cursor: pointer;
+}
+.arrow-logo{
+    width: 16px;
+    height: 16px;
+}

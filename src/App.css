@@ -10,6 +10,9 @@
   font-family: Euclid-Light;
   src: url(./assets/fonts/EuclidSquare-Light.ttf);
 }
+.footer-section{
+  background-color: #00005e;
+}
 .header-section{
   background-color: #10239E;
 }
@@ -29,6 +32,7 @@
   background-color: #ffff;
   border-radius: 0.2rem;
 }
+
 @media only screen and (max-width: 950px){
   .menu {
       display: flex;

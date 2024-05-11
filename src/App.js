@@ -6,6 +6,9 @@ import HeroSection2 from './components/heroSection-2.js';
 import HeroSection3 from './components/heroSection-3.js';
 import LogoBar from './components/logoBar.js';
 import HeroSection4 from './components/heroSection-4.js';
+import HeroSection5 from './components/heroSection-5.js';
+import Footer from './components/footer.js';
+
 function App() {
   return (
     <>
@@ -17,6 +20,10 @@ function App() {
     <HeroSection3 />
     <LogoBar />
     <HeroSection4 />
+    <HeroSection5 />
+    <div className='footer-section'>
+    <Footer />
+    </div>
     </>
   );
 }
