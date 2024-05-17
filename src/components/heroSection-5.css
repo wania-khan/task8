@@ -63,3 +63,8 @@
     width: 16px;
     height: 16px;
 }
+@media only screen and (max-width:470px) {
+   .h-5-1{
+    font-size: 28px;
+    }
+}

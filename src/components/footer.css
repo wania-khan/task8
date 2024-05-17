@@ -21,7 +21,7 @@
     padding-top: 10px;
 }
 .footer-p9{
-    font-size: larger;
+    font-size: 18px;
 }
 .footer-cont-3{
     color: #7a7b88;
@@ -45,4 +45,10 @@
     text-align: center;
     padding-bottom: -10px;
     font-size: 14px;
+}
+@media only screen and (max-width:620px) {
+    .footer-container{
+        padding-left: none;
+        justify-content: space-between;
+    }
 }
