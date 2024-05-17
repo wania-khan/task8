@@ -1,0 +1,44 @@
+.footer5-container{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1295px;
+}
+.footer-container{
+    padding-left: 85px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Euclid';
+}
+.footer-cont-1, .footer-cont-2{
+    color: #fff;
+}
+.footer-cont-1, .footer-cont-3{
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-icons{
+    padding-top: 10px;
+}
+.footer-p9{
+    font-size: larger;
+}
+.footer-cont-3{
+    color: #3d3b3b;
+}
+.footer-row1{
+    justify-content: space-evenly;  
+    padding: 5px;   
+}
+.slack,.twitter, .linkedin{
+    height: 36px;
+    width: 36px; 
+}
+.ngrok-footer{
+    width: 120px;
+    height: 44px;
+}
+.copyright-footer{
+    color: #3d3b3b;
+    text-align: center;
+}
