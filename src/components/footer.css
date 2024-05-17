@@ -27,12 +27,13 @@
     color: #7a7b88;
 }
 .footer-row1{
-    justify-content: space-evenly;  
-    padding: 5px;   
+    display: flex;
+    justify-content: space-around;  
+    gap: 8px;   
 }
 .slack,.twitter, .linkedin{
-    height: 36px;
-    width: 36px; 
+    height: 30px;
+    width: 30px; 
 }
 .ngrok-footer{
     width: 120px;

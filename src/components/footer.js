@@ -33,9 +33,9 @@ function footer(){
     <p className="footer-p14">Terms of Service</p>
     <div className="footer-icons">
         <div className="footer-row1">
-        <img className="slack" alt="error-slack" src={Slack}/>
-        <img className="twitter" alt="error-twitter" src={Twitter}/>
-        <img className="linkedin" alt="error-linked-in" src={Linkedin}/>
+        <div className="icon-1"><img className="slack" alt="error-slack" src={Slack}/></div>
+        <div className="icon-2"><img className="twitter" alt="error-twitter" src={Twitter}/></div>
+        <div className="icon-3"><img className="linkedin" alt="error-linked-in" src={Linkedin}/></div>
         </div>
         <br />
         <img className="ngrok-footer" alt="error-ngrok" src={NGROK}/>
