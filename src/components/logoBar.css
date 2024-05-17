@@ -19,4 +19,12 @@
       transform: translate3d(-1000px, 0, 0);
     }
   }
-  
+
+@media only screen and (max-width:516px){
+  .logo-bar{
+    display: none;
+  }
+  .content-br{
+    display: none;
+  }
+}    

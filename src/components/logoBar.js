@@ -11,7 +11,9 @@ import './logoBar.css';
 function logoBar(){
     return(
     <>
+    <div className='content-br'>
     <br></br><br></br><br></br>
+    </div>
     <div className='logo-bar'>
     <img src={Twilio} alt='error' className='Twilio'/>
     <img src={SendGrid} alt='error' className='SendGrid'/>
